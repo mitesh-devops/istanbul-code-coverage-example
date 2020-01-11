@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node index.js",
     "test": "jasmine",
-    "test": "jest",
     "test-cover": "istanbul cover --include-all-sources spec/specs.js && istanbul check-coverage"
   },
   "keywords": [
@@ -21,7 +20,6 @@
     "jasmine-console-reporter": "^2.0.1",
     "supertest": "^3.0.0",
     "jasmine-supertest": "^1.0.0",
-    "testResultsProcessor": "jest-teamcity-reporter",
   },
   "dependencies": {
     "express": "^4.17.1"
